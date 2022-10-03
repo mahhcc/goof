@@ -1,0 +1,37 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - tap > codecov.io > request > hawk:
+        patched: '2022-10-03T18:13:28.502Z'
+  'npm:http-signature:20150122':
+    - tap > codecov.io > request > http-signature:
+        patched: '2022-10-03T18:13:28.502Z'
+  SNYK-JS-LODASH-567746:
+    - mongoose > async > lodash:
+        patched: '2022-10-03T18:13:28.502Z'
+  'npm:mime:20170907':
+    - tap > codecov.io > request > form-data > mime:
+        patched: '2022-10-03T18:13:28.502Z'
+  'npm:minimatch:20160620':
+    - tap > nyc > istanbul > fileset > minimatch:
+        patched: '2022-10-03T18:13:28.502Z'
+    - tap > nyc > istanbul > fileset > glob > minimatch:
+        patched: '2022-10-03T18:13:28.502Z'
+    - tap > nyc > glob > minimatch:
+        patched: '2022-10-03T18:13:28.502Z'
+    - tap > nyc > rimraf > glob > minimatch:
+        patched: '2022-10-03T18:13:28.502Z'
+    - tap > nyc > spawn-wrap > rimraf > glob > minimatch:
+        patched: '2022-10-03T18:13:28.502Z'
+  'npm:ms:20151024':
+    - humanize-ms > ms:
+        patched: '2022-10-03T18:13:28.502Z'
+  'npm:request:20160119':
+    - tap > codecov.io > request:
+        patched: '2022-10-03T18:13:28.502Z'
+  'npm:tunnel-agent:20170305':
+    - tap > codecov.io > request > tunnel-agent:
+        patched: '2022-10-03T18:13:28.502Z'
